@@ -29,7 +29,6 @@ class Search:
         # self.ui.label.setText("no such fruit")
         self.ui.button2.clicked.connect(self.add_sub)
         self.model2 = QStandardItemModel()
-        print(self.search())
 
         date = self.readData()
         values = date[0]
