@@ -64,7 +64,6 @@ class Search:
 
     def search(self):
         global history
-        self.ui.label.setText("no such fruit")
         itemNum = -1
         name = self.ui.lineEdit.text()
         print(name)
